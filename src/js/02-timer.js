@@ -85,6 +85,7 @@ const countdownTimer = new CountdownTimer({
 
 refs.startBtn.addEventListener('click', () => {
   countdownTimer.start();
+  refs.startBtn.disabled = true;
 });
 
 
